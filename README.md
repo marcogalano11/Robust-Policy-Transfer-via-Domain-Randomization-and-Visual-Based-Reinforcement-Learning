@@ -1,6 +1,9 @@
 # Project on Reinforcement Learning (Course project MLDL 2025 - POLITO)
 
 This work explores the sim‑to‑real transfer in robotic control using Reinforcement Learning techniques via Domain Randomization and Visual-Based inputs on the MuJoco Hopper environment.
+### Abstact
+This report presents a project exploring Reinforcement Learning (RL) for robotic control, moving from foundational algorithms to more advanced techniques. The work begins with testing and benchmarking basic methods, such as REINFORCE and Actor-Critic, within a fixed environment in order to establish reliable baseline performance. Subsequently, a state-of-the-art algorithm, namely Proximal Policy Optimization (PPO), is implemented and successively integrated with a Domain Randomization technique in order to enhance the robustness of the policy across varying conditions, especially to reduce the Reality Gap.
+The focus then shifts to visual-based RL, where the agent is trained using visual input with three different modalities. The first consists in a purely visual-based learning, training the agent exclusively on images obtained from the simulation. The second adopts a Multi-Modal Learning approach, combining visual input with environment state information, enriching model representation. Finally, the work investigates knowledge transfer between agents through Distillation Learning, offering valuable insights into visual-based RL.
 
 The following methods are implemented:
 - **REINFORCE** 
