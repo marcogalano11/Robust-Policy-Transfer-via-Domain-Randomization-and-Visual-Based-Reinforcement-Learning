@@ -105,7 +105,7 @@ class Agent(object):
         #
 
         #using the predefined discounted_rewards function to compute discounted rewards from the current rewards and the defined gamma value
-        discounted_returns = discount_rewards(rewards, self.gamma)        #
+        discounted_returns = discount_rewards(rewards, self.gamma)
         # TASK 3:
         #   - compute boostrapped discounted return estimates
         #   - compute advantage terms
